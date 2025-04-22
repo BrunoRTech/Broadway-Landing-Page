@@ -1,17 +1,19 @@
-# Broadway Landing Page
+# Dasmoto's Arts & Crafts
 
-This project is a simple landing page built with HTML and CSS, created using the guide provided by [Codecademy](https://www.codecademy.com/journeys/full-stack-engineer/paths/fscj-22-web-development-foundations/tracks/fscj-22-fundamentals-of-css/modules/wdcp-22-learn-css-display-and-positioning-fcf96efc-f6fb-4002-bdb4-f4f6b4b3d52c/projects/broadway-design). It serves as an example of how to use layout and positioning techniques to build a modern, responsive homepage for a fictional design firm called Broadway Design.
+This project is a simple static website built with HTML and CSS, created using the guide provided by [Codecademy](https://www.codecademy.com/journeys/full-stack-engineer/paths/fscj-22-web-development-foundations/tracks/fscj-22-developing-websites-locally/modules/wdcp-22-developing-with-css-0c2f9fa7-526e-41b6-a7b5-a871196585ef/projects/dasmoto).  
+It serves as an example of how to structure and style a basic multi-section page for a fictional arts and crafts store called **Dasmoto's Arts & Crafts**.
 
 ## Features
-- **Fixed Header**: Navigation bar stays at the top of the screen while scrolling.
-- **Inline Navigation**: List items are displayed side by side using `display: inline-block`.
-- **Jumbotron Layout**: Large header section with background image and call-to-action button.
-- **Supporting Sections**: “Design”, “Develop”, and “Deploy” blocks with text and icons.
-- **Responsive Design**: Adjusts layout for smaller screens using media queries.
+- **Hero Header**: Large, eye-catching store title styled with a background image.
+- **Color-Coded Sections**: Each product category (Brushes, Frames, Paint) is styled with a unique background color.
+- **Styled Text**: Section headings and prices use custom fonts, weights, and colors.
+- **Inline Product Display**: Each product is represented with an image, description, and price.
+- **Simple Responsive Base**: Basic layout renders cleanly on different screen sizes.
 
 ## File Structure
-- `index.html`: Contains the main structure of the landing page.
-- `style.css`: Defines all visual styling, layout, font, and responsive behavior.
+- `index.html`: Contains the structure and content of the arts & crafts page.
+- `styles.css`: Defines styling rules for layout, typography, and section formatting.
+- `hacksaw.jpeg`, `frames.jpeg`, `finnish.jpeg`, `pattern.jpeg`: Images used in the webpage.
 
 ## Usage
 To view the project:
@@ -19,10 +21,10 @@ To view the project:
 2. Open the `index.html` file in any web browser.
 
 ## Customization
-If you’d like to modify this landing page:
-- Edit the `index.html` to change headings, content, or sections.
-- Adjust styles in `style.css` to customize fonts, colors, layout, or responsiveness.
-- Replace background images or icons to match your branding.
+If you’d like to modify this page:
+- Update the `index.html` to add new products or edit existing descriptions.
+- Modify `styles.css` to change colors, fonts, or layout.
+- Swap out the image files for your own assets.
 
 ## Acknowledgment
-This project was built using the guide provided by Codecademy. The original project can be found [here](https://www.codecademy.com/journeys/full-stack-engineer/paths/fscj-22-web-development-foundations/tracks/fscj-22-fundamentals-of-css/modules/wdcp-22-learn-css-display-and-positioning-fcf96efc-f6fb-4002-bdb4-f4f6b4b3d52c/projects/broadway-design).
+This project was built using the guide provided by Codecademy. The original project can be found [here](https://www.codecademy.com/journeys/full-stack-engineer/paths/fscj-22-web-development-foundations/tracks/fscj-22-developing-websites-locally/modules/wdcp-22-developing-with-css-0c2f9fa7-526e-41b6-a7b5-a871196585ef/projects/dasmoto).
